@@ -1,1 +1,1 @@
-HTML CSS Project for Web Design Course
+HTML/CSS Project for Web Design Course
