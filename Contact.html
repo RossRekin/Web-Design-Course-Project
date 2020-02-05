@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Style Spxtter</title>
+</head>
+
+<body>
+    <header id="nav">
+        <a href="index.html" class="header-brand">stylespxtter</a>
+        <nav>
+
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html">Home</a></li>
+                <li>
+                    <a href="news.html">Style</a></li>
+                <li>
+                    <a href="contact.html">Contact us</a></li>
+            </ul>
+
+
+        </nav>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+    </header>
+    <main>
+        <div class="wrapper">
+            <section class="contact-main">
+                <h2>Contact us</h2>
+                <div class="border"></div>
+
+                <form action="contact.html" class="contact-form" method="POST">
+                    <input type="text" name="fistName" class="contact-txt-form" placeholder="First Name" required id="first-name">
+                    <input type="text" class="contact-txt-form" placeholder="Last Name" name="lastName" required id="last-name">
+                    <input type="email" name="email" class="contact-txt-form" placeholder="Email" required id="email">
+                    <input type="text" name="phoneNumber" class="contact-txt-form" placeholder="Phone number" required id="phone-number">
+                    <input type="text" name="subject" class="contact-txt-form" placeholder="Subject" required id="subject">
+                    <textarea class="contact-txt-form" name="message" rows="10" placeholder="Your message" id="message"></textarea>
+                    <button class="btn-send" onclick="return checkInput();">Send</button>
+                </form>
+            </section>
+
+
+        </div>
+        <p id="validateInfo">
+
+        </p>
+    </main>
+    <div class="wrapper">
+        <footer>
+            <div class="copyright-info">
+                <p>Copyright © 2019 StyleSpxytter Media, LLC. All Rights Reserved. The material on this site can not be reproduced, distributed, transmitted, cached or otherwise used, except with prior written permission of Multiply.</p>
+
+            </div>
+            <ul>
+                <ul class="footer-main-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="news.html">Style</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </ul>
+
+            <div class="footer-sm">
+                <a href="https://www.facebook.com/"><img src="img/facebook.png" alt="facebook icon"></a>
+                <a href="https://www.instagram.com"><img src="img/instagram.png" alt="instagram icon"></a>
+                <a href="https://twitter.com/"><img src="img/twitter.png" alt="twitter icon"></a>
+
+                </a>
+            </div>
+
+        </footer>
+    </div>
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
